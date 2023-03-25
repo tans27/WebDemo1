@@ -1,7 +1,19 @@
-.header{
+.header {
     display: flex;
     justify-self: space-between;
     align-items: center;
     height: 300px;
     background-color: red;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
